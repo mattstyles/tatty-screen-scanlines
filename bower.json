@@ -1,0 +1,32 @@
+{
+  "name": "tatty-screen-scanlines",
+  "version": "0.1.0",
+  "main": "index.js",
+  "authors": [
+    "mattstyles <matt@veryfizzyjelly.com>"
+  ],
+  "keywords": [
+    "es6",
+    "screen",
+    "printer",
+    "tty",
+    "teleprinter",
+    "module",
+    "overlay",
+    "scanlines"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist/common",
+    "build",
+    "index.html"
+  ],
+  "dependencies": {
+    "tatty-screen-base-module": "~1.0.1"
+  }
+}

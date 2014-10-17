@@ -1,0 +1,32 @@
+{
+  "name": "tatty-screen-scanlines",
+  "version": "1.0.1",
+  "description": "Module extension for tatty-screen that adds scanlines as an overlay",
+  "main": "index.js",
+  "scripts": {
+    "watch": "./build/watch.js",
+    "build": "./build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Styles @personalurban",
+  "keywords": [
+    "es6",
+    "screen",
+    "printer",
+    "tty",
+    "teleprinter",
+    "module",
+    "overlay",
+    "scanlines"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattstyles/tatty-screen-scanlines"
+  },
+  "bugs": {
+    "url": "https://github.com/mattstyles/tatty-screen-scanlines/issues"
+  },
+  "license": "WTFPL",
+  "dependencies": {
+  }
+}
