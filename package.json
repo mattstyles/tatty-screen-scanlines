@@ -1,6 +1,6 @@
 {
   "name": "tatty-screen-scanlines",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "Module extension for tatty-screen that adds scanlines as an overlay",
   "main": "index.js",
   "scripts": {
