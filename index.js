@@ -14,7 +14,8 @@ export default class ScreenScanlines extends ScreenBaseModule {
      */
     init() {
         Object.assign( this.defaults, {
-            scanOffset: 3
+            scanOffset: 3,
+            scanOpacity: .3
         });
 
         this.on( 'ready', function() {
@@ -36,7 +37,7 @@ export default class ScreenScanlines extends ScreenBaseModule {
                     bottom: 0;
                     pointer-events: none;
                     background-repeat: repeat;
-                    opacity: .3;
+                    opacity: ${ this.opts.scanOpacity };
                 }
             `);
         }, this );
